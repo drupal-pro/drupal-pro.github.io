@@ -1,0 +1,32 @@
+<header class="content-header">
+  <div class="header">
+    {{ page.header }}
+  </div>
+</header>
+<div class="main-container">
+  {% if page.sidebar_first %}
+  <div class="sidebar-first">
+    {{ page.sidebar_first }}
+  </div>
+  {% endif %}
+  <div class="content">
+    {{ page.content }}
+    {{ page.test }}
+    {{ page.test1 }}
+  </div>
+  {% if page.sidebar_first %}
+  <div class="sidebar-first">
+    {{ page.sidebar_second }}
+  </div>
+  {% endif %}
+</div>
+{% if page.sidebar_first %}
+<footer>
+  <div class="footer">
+    {{ page.footer }}
+  </div>
+</footer>
+{% endif %}
+
+
+

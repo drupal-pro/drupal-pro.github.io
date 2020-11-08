@@ -1,0 +1,15 @@
+name: Default Content Extra
+type: module
+description: Extra experimental functionality to enhance Default Content.
+# core: 8.x
+package: Web services
+dependencies:
+  - default_content
+
+configure: default_content_extra.default_content_extra_settings_form
+
+# Information added by Drupal.org packaging script on 2017-12-20
+version: '8.x-1.0-beta5'
+core: '8.x'
+project: 'default_content_extra'
+datestamp: 1513804686

@@ -1,0 +1,17 @@
+name: Drupal8
+description: A starter theme for Drupal 8.
+type: theme
+core: 8.x
+libraries:
+  - drupal8/global-css
+  - drupal8/global-js
+
+base theme: classy
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+  test: test
+

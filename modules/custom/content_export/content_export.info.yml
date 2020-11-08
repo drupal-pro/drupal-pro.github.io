@@ -1,0 +1,8 @@
+name: 'Default content export'
+type: module
+description: 'Default content export'
+package: Other
+dependencies:
+  - default_content 
+version: '8.x-1.0'
+core: '8.x'

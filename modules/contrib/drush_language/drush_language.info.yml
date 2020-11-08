@@ -1,0 +1,12 @@
+name: 'Drush Language commands'
+type: module
+description: 'Provides Drush commands for language manipulation'
+core_version_requirement: ^8.7.7 || ^9
+package: Multilingual
+dependencies:
+  - drupal:language
+
+# Information added by Drupal.org packaging script on 2020-05-03
+version: '8.x-1.0-rc3'
+project: 'drush_language'
+datestamp: 1588522987
